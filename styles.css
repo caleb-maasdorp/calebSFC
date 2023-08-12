@@ -1,0 +1,259 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+
+/* Container Styles */
+.game-container {
+    text-align: center;
+}
+
+/* Titles and Headings */
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+
+
+/* Button Styles */
+.play-button,
+.pricing-link,
+.back-button,
+.ending-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover,
+.pricing-link:hover,
+.back-button:hover,
+.ending-button:hover {
+    background-color: #ff9900;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+.animation-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.character {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #00ff00;
+    animation: moveCharacter 2s infinite;
+}
+
+@keyframes moveCharacter {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 150px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+/* ... Previous CSS rules ... */
+
+.play-button,
+.pricing-link,
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover,
+.pricing-link:hover,
+.back-button:hover {
+    background-color: #ff9900;
+}
+/* ... Previous CSS rules ... */
+
+.pricing-table {
+    margin-top: 40px;
+    border: 2px solid #ff9900;
+    padding: 20px;
+    background-color: #222;
+}
+
+.pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ff9900;
+}
+
+
+
+.game-level-menu {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.game-level-menu a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.game-level-menu a:hover {
+    color: #00ff00;
+}
+
+.about-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* ... Previous CSS rules ... */
+
+.about-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* ... Previous CSS rules ... */
+
+.testimonials {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#testimonialOutput {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#generateTestimonial {
+    background-color: #00ff00;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#generateTestimonial:hover {
+    background-color: #ff9900;
+}
+/* ... Previous CSS rules ... */
+
+.testimonial-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.testimonial-button:hover {
+    background-color: #ff6600;
+}
+
+/* ... Other CSS rules ... */
+/* ... Previous CSS rules ... */
+
+/* ... Previous CSS rules ... */
+
+.testimonials {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000; /* Match the background color */
+    border: 1px solid #333; /* Add a border around the sides */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s;
+    color: #fff; /* Text color for visibility */
+}
